@@ -6,4 +6,6 @@ In this repository, the area growth algorithm is implemented for the Balls.jpg i
 
 ![input](https://github.com/zahrasa/Region-Growing-Algorithm/blob/main/img/Balls.jpg)
 
-The ready-made functions cv2.setMouseCallback and cv2.EVENT_LBUTTONDBLCLK are used for graphical interface and specification of seed pixels. A sampled output is shown in the attached jupyter notebook when the seed pixel was in the white areas of the central ball. It can be seen that the algorithm has correctly specified all those connected areas just by knowing 'one' pixel (the seed).
+The ready-made functions cv2.setMouseCallback and cv2.EVENT_LBUTTONDBLCLK are used for graphical interface and specification of seed pixels. A sampled output is shown bellow when the seed pixel was in the white areas of the central ball. It can be seen that the algorithm has correctly specified all those connected areas just by knowing 'one' pixel (the seed).
+
+<img src="https://github.com/zahrasa/Region-Growing-Algorithm/blob/main/img/result.png" alt="result" style="width:250px;height:250px;">
